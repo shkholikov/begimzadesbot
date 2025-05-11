@@ -20,8 +20,12 @@
 	"description": "",
 	"dependencies": {
 		"@grammyjs/i18n": "^1.1.2",
+		"@grammyjs/parse-mode": "^1.11.1",
+		"@grammyjs/storage-mongodb": "^2.5.1",
 		"dotenv": "^16.5.0",
-		"grammy": "^1.36.1"
+		"grammy": "^1.36.1",
+		"mongodb": "^6.16.0",
+		"mongoose": "^8.14.2"
 	},
 	"devDependencies": {
 		"@types/node": "^22.15.17"

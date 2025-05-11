@@ -1,0 +1,29 @@
+{
+	"name": "begimzadesbot",
+	"version": "1.0.0",
+	"main": "bot.ts",
+	"scripts": {
+		"build": "npx tsc",
+		"dev": "export DEBUG=\"grammy*\"&& npx tsc && node src/bot.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shkholikov/begimzadesbot.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/shkholikov/begimzadesbot/issues"
+	},
+	"homepage": "https://github.com/shkholikov/begimzadesbot#readme",
+	"description": "",
+	"dependencies": {
+		"@grammyjs/i18n": "^1.1.2",
+		"dotenv": "^16.5.0",
+		"grammy": "^1.36.1"
+	},
+	"devDependencies": {
+		"@types/node": "^22.15.17"
+	}
+}
